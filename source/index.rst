@@ -11,11 +11,11 @@ SwissDRG Grouper Documentation
    :caption: Contents:
 
 Getting Started
-===============
+---------------
 
 
 Batch Grouping
-==============
+--------------
 
 Grouper Library
-===============
+---------------
