@@ -1,7 +1,11 @@
 Batch Grouping
 --------------
 
-.. code-block:: java
+There should be some code:
+
+.. code-block::
+   :language: java
+   :linenos:
    package org.swissdrg.grouper.example;
 
    import org.swissdrg.grouper.Catalogue;
