@@ -10,12 +10,8 @@ SwissDRG Grouper Documentation
    :maxdepth: 2
    :caption: Contents:
 
+   batchgrouping
+   grouper-library
+
 Getting Started
----------------
-
-
-Batch Grouping
---------------
-
-Grouper Library
 ---------------
