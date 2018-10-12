@@ -6,6 +6,10 @@
 SwissDRG Grouper Documentation
 ==============================
 
+
+Getting Started
+---------------
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
@@ -13,5 +17,3 @@ SwissDRG Grouper Documentation
    batchgrouping
    grouper-library
 
-Getting Started
----------------
