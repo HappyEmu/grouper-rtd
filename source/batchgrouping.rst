@@ -5,6 +5,22 @@ There should be some code:
 
 .. code-block:: java
 
+  package org.swissdrg.grouper.example;
+
+  import org.swissdrg.grouper.Catalogue;
+  import org.swissdrg.grouper.EffectiveCostWeight;
+  import org.swissdrg.grouper.GrouperResult;
+  import org.swissdrg.grouper.IGrouperKernel;
+  import org.swissdrg.grouper.IGrouperReader;
+  import org.swissdrg.grouper.IPatientCaseParser;
+  import org.swissdrg.grouper.PatientCase;
+  import org.swissdrg.grouper.PatientCaseParserFactory;
+  import org.swissdrg.grouper.PatientCaseParserFactory.InputFormat;
+  import org.swissdrg.grouper.SpecificationReader;
+  import org.swissdrg.grouper.WeightingRelation;
+
+  import java.util.Map;
+
   public class ApiExample {
 
       private static final String WORKSPACE_FOLDER = "/home/madonna/spec-6av";
