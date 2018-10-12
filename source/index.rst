@@ -3,18 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SwissDRG Grouper Documentation's documentation!
-==========================================================
+SwissDRG Grouper Documentation
+==============================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+Getting Started
+===============
 
 
-Indices and tables
-==================
+Batch Grouping
+==============
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Grouper Library
+===============
