@@ -175,3 +175,4 @@ epub_exclude_files = ['search.html']
 
 
 # -- Extension configuration -------------------------------------------------
+html_show_sourcelink = False

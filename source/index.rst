@@ -6,13 +6,27 @@
 SwissDRG Grouper Documentation
 ==============================
 
-
 Getting Started
 ---------------
 
+Can even do math:
+
+.. math::
+
+   (a + b)^2  &=  (a + b)(a + b) \\
+              &=  a^2 + 2ab + b^2
+
+.. toctree::
+   :maxdepth: 3
+   :caption: Batchgrouping
+
+   batchgrouping-general
+   input-formats
+   output-format
+
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Grouper Library
 
    batchgrouping
    grouper-library
