@@ -1,5 +1,11 @@
-Batch Grouping
---------------
+Calling the Batchgrouper
+------------------------
+
+Options
+^^^^^^^
+
+TARPSY Batchgrouping
+--------------------
 
 There should be some code:
 
