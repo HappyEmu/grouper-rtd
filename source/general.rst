@@ -3,16 +3,16 @@ Package
 When you download a Grouper package from the Download portal, you will receive a ZIP file containing the following 
 files:
 
-* ``CHANGELOG.md`` - A file describing the version history of the Grouper software
-* ``LICENSE-3RD-PARTY.txt`` - A file containing the open source software licenses of all third-party software that
+* ``CHANGELOG.md`` -- A file describing the version history of the Grouper software
+* ``LICENSE-3RD-PARTY.txt`` -- A file containing the open source software licenses of all third-party software that
   is packaged as part of this Grouper distribution.
-* ``README.md`` - A short readme file
-* ``java-grouper-{VERSION}-all.jar`` - An executable JAR containing all referenced Java classes that are necessary to 
+* ``README.md`` -- A short readme file
+* ``java-grouper-{VERSION}-all.jar`` -- An executable JAR containing all referenced Java classes that are necessary to 
   run the grouper (including 3rd-party dependencies). Use this artifact if you want to use the grouper as an executable.
-* ``java-grouper-{VERSION}.jar`` - JAR without dependencies. Includes only the Java-Grouper classes. Use this artifact if 
+* ``java-grouper-{VERSION}.jar`` -- JAR without dependencies. Includes only the Java-Grouper classes. Use this artifact if 
   you want to use the grouper as a library and if you want to resolve the dependencies yourself.
-* ``java-grouper-{VERSION}-javadoc.jar`` - Contains the Javadoc files for the Grouper software.
-* ``java-grouper-{VERSION}.pom`` - Maven POM file stating the 3rd-party dependencies that are required by the Grouper 
+* ``java-grouper-{VERSION}-javadoc.jar`` -- Contains the Javadoc files for the Grouper software.
+* ``java-grouper-{VERSION}.pom`` -- Maven POM file stating the 3rd-party dependencies that are required by the Grouper 
   software.
 
 .. note::

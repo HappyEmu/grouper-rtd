@@ -34,20 +34,20 @@ you should call the batchgrouper and what options and arguments you have to prov
 
     $ java -jar java-grouper-{VERSION}-all.jar
 
-    > You have to specify a workspace and exactly one input file
-    > usage: Batchgrouper [options] workspace-directory input-file
-    > Options:
-    > -bh,--birthhouse                                        Use the birth house grouper. (default:
-    >                                                         false)
-    > -cat,--drg-catalogue <file>                             Specify a DRG catalogue providing cost
-    >                                                         weights. Mandatory.
-    > -f,--input-format <batch_2017|batch(default)|url|bfs>   Input format: One of 'url', 'bfs', 'batch'
-    >                                                         (default) or 'batch_2017'
-    > -out,--output-file <file>                               Specify an output file. If none is
-    >                                                         specified results are written to standard
-    >                                                         output.
-    > -t,--threads <arg>                                      Number of threads used for grouping.
-    >                                                         (default: number of cores available)
+    You have to specify a workspace and exactly one input file
+    usage: Batchgrouper [options] workspace-directory input-file
+    Options:
+    -bh,--birthhouse                                        Use the birth house grouper. (default:
+                                                            false)
+    -cat,--drg-catalogue <file>                             Specify a DRG catalogue providing cost
+                                                            weights. Mandatory.
+    -f,--input-format <batch_2017|batch(default)|url|bfs>   Input format: One of 'url', 'bfs', 'batch'
+                                                            (default) or 'batch_2017'
+    -out,--output-file <file>                               Specify an output file. If none is
+                                                            specified results are written to standard
+                                                            output.
+    -t,--threads <arg>                                      Number of threads used for grouping.
+                                                            (default: number of cores available)
 
 With the ``-f`` option, you can specify the input format of your input file. The possible input formats are documented
 in :ref:`input-formats`.
@@ -78,3 +78,24 @@ where
 
   As of data year 2017 (i.e. once CHOP 2017 is applicable), the ``-honos`` parameter is obsolete, 
   since HoNOS values will be encoded as CHOP codes.
+
+Options
+^^^^^^^
+As with the SwissDRG batchgrouper, you can call the TARPSY batchgrouper without any arguments to get a list of all
+supported options and arguments, along with their specific usage.
+
+.. code-block:: text
+
+    $ java -cp java-grouper-{VERSION}-all.jar org.swissdrg.grouper.tarpsy.batchgrouper.TarpsyBatchgrouper 
+    
+    Parsing of command line options failed.  Reason: Missing required option: cat
+    usage: Batchgrouper [options] workspace-directory input-file
+    Options:
+    -cat,--drg-catalogue <file>                     Specify a DRG catalogue providing cost weights.
+                                                    Mandatory.
+    -f,--input-format <mb(default)|batch|url|bfs>   Input format: One of 'mb', url', 'bfs' or 'batch'
+                                                    (default)
+    -honos,--honos-file <file>                      Specify a HoNOS file with PH records. FIDs must
+                                                    correspond to patient cases IDs.
+    -out,--output-file <file>                       Specify an output file. If none is specified
+                                                    results are written to standard output.
